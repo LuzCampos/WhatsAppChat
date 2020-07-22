@@ -37,9 +37,7 @@ class HomePage extends StatelessWidget{
               icon: Icon(Icons.camera_alt),
             ),
 
-            Tab(
-              child: Text('CHATS'),
-            ),
+            Tab(child: Text('CHATS'),),
 
              Tab(
               child: Text('STATUS'),
@@ -73,11 +71,11 @@ class HomePage extends StatelessWidget{
           LlamadasTab()
         ]
       ),
-      floatingActionButton: FloatingActionButton(
+      /*floatingActionButton: FloatingActionButton(
         child: Icon(Icons.chat),
         onPressed: (){},
         backgroundColor: Color(0xFF25D366),
-        ),
+        ),*/
       ),
     );
   }
